@@ -1,0 +1,4 @@
+Id,Tipo,Ram,Almacenamiento,VisaCuotas,Marca,Modelo,Procesador,MicroUSB,CuboCargador,5G,TamañoDisco,TipoDisco,VelocidadCPU,VelocidadGPU,Precio,Encendido,Brillo,Volumen,VideosPublicitarios
+1,Computadora,16GB,1TB,48,HP,Victus,NA,NA,NA,NA,1TB,SSD,4.3GHz,2.0GHz,12000.00,true,100,100,5
+2,Computadora,8GB,256GB,24,Lenovo,Thinkbook14,NA,NA,NA,NA,256GB,SSD,3.0GHz,4.1GHz,8000.00,true,100,100,5
+3,Telefono,6GB,125GB,48,Apple,iPhone15,A17Pro,false,false,true,NA,NA,NA,NA,9000.00,true,100,100,3
