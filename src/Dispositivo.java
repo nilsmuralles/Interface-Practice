@@ -1,3 +1,12 @@
+/**
+ * @author Nils Muralles
+ * @version 1.0
+ * @since 30/10/23
+ * @modificationDate 01/11/23
+ * @description Clase que modela un Dispositivo, el cual hereda sus atributos a
+ *              otras clases
+ */
+
 public class Dispositivo {
 
     // Atributos de Dispositivo
@@ -10,6 +19,9 @@ public class Dispositivo {
     protected String modelo;
     protected String tipo;
     protected int videosPublicitarios;
+    protected boolean encendido;
+    protected int brillo;
+    protected int volumen;
 
     /**
      * Constructor de Dispositivo
@@ -21,9 +33,6 @@ public class Dispositivo {
      * @param visaCuotas
      * @param marca
      * @param modelo
-     * @param encendido
-     * @param brillo
-     * @param volumen
      * @param tipo
      * @param videosPublicitarios
      */
@@ -38,6 +47,9 @@ public class Dispositivo {
         this.modelo = modelo;
         this.tipo = tipo;
         this.videosPublicitarios = videosPublicitarios;
+        this.encendido = true;
+        this.brillo = 100;
+        this.volumen = 100;
     }
 
     /**
@@ -56,6 +68,42 @@ public class Dispositivo {
      */
     public void setPrecio(double precio) {
         this.precio = precio;
+    }
+
+    /**
+     * Devuelve el id
+     * 
+     * @return
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * Actualiza el id
+     * 
+     * @param id
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * Devuelve el tipo
+     * 
+     * @return
+     */
+    public String getTipo() {
+        return tipo;
+    }
+
+    /**
+     * Actualiza el tipo
+     * 
+     * @param tipo
+     */
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 
     /**

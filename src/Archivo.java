@@ -1,3 +1,12 @@
+
+/**
+ * @author Nils Muralles
+ * @version 1.0
+ * @since 30/10/23
+ * @modificationDate 01/11/23
+ * @description Clase Archivo que se encarga de leer el CSV con los datos con los que se trabaja
+ */
+
 import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
@@ -18,6 +27,12 @@ public class Archivo {
         archivo = new File(archivo.getAbsolutePath());
     }
 
+    /**
+     * Lee el CSV y devuelve el ArrayList de dispositivo
+     * 
+     * @return
+     * @throws Exception
+     */
     public ArrayList<Dispositivo> leer() throws Exception {
 
         // Lista de dispositivos
